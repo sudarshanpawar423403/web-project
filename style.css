@@ -1,0 +1,181 @@
+body{
+    
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+.in-firstdiv{
+    padding: 15px 100px;
+}
+#b-container{
+    text-align: right;
+   
+    font-size: 25px;
+    color: rgb(60, 57, 57);
+    position: relative;
+    top: -5px;
+    
+    
+    text-decoration: none;
+    
+
+}
+#btn-Add-Task:hover{
+    background-color: red;
+}
+#c-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+
+}
+.cards{
+    background-color:white;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 10px;
+    width: 23vw;
+    height: 250px;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 20px;
+    
+}
+ .cards:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+#contain{
+    /* position: relative;
+    top: 17px;
+    left: 705px; */
+    text-decoration: none;
+}
+
+#cardnew{
+    background-color:white;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+    margin: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+}
+#link-container{
+    margin: 20px;
+    width: 25%;
+}
+#plus-icon{
+    /* position: relative;
+    top: 34px;
+    right: -952px; */
+  color: rgb(16, 143, 198);
+  font-size: 40px;
+
+}
+#b-icon{
+    position: relative;
+    left: -25%;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+}
+#con{
+    position: relative;
+    top: 0px;
+    left: -25%;
+    text-decoration: none;
+}
+#plus-icon-1{
+    position: relative;
+    top: 7px;
+    right: -23%;
+  color: rgb(16, 143, 198);
+  font-size: 30px;
+
+}
+
+#add-anchor{
+    position: relative;
+    top: -5%;
+    right: -25%;
+    text-decoration: none;
+    color: black;
+}
+.checkbox-design{
+    opacity: 0.5;
+    width: 23px;
+    height: 23px;
+}
+.head-check{
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: rgb(148, 146, 146);
+    position: relative;
+    top:-5px;
+
+}
+.head1-check{
+    
+    
+    color: rgb(79, 77, 77);
+    position: relative;
+    top:-5px;
+
+}
+#page-2-div{
+    filter: blur(2px);
+}
+#add-task{
+    text-align: right;
+    position: relative;
+    top: 30px;
+    right: 8%;
+   
+}
+.pop-div{
+    width: 30vw;
+    /* margin: 19vw 35vw; */
+    border: 3px solid rgb(234, 229, 229);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 210px;
+    position: absolute;
+    top: 31vh;
+    left: 33vw;
+}
+#box-design{
+    width: 98%;
+    background-color: rgb(230, 223, 223);
+    border-radius: 5px;
+    border: 2px solid rgb(230, 223, 223);
+    color: grey;
+    padding: 5px;
+}
+#btn-Add-Task{
+    background-color: #00A5EC;
+    color: white;
+    border-color: #00A5EC;
+    border-radius: 5px;
+    padding: 3px 20px 7px 40px;
+    width: 35%;
+    margin-left: 65%;
+}
+#cross-btn{
+    margin-left: 70%;
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+.blur-container{
+    filter: brightness(50%);
+}
+#plus-btn{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    right: -324px;
+    top: 23px;
+}
